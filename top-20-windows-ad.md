@@ -11,7 +11,11 @@
 
 1. [BloodHound](https://github.com/BloodHoundAD/BloodHound) – Visualize AD relationships and attack paths.  
 2. [Impacket](https://github.com/SecureAuthCorp/impacket) – Python toolkit for SMB, Kerberos, and network protocol attacks.  
-3. [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) – Swiss-army knife for AD enumeration and multi-protocol attacks.  
+3. [NetExec](https://github.com/Pennyw0rth/NetExec) – Actively maintained fork of CrackMapExec preserving all core features and adding:  
+   - Expanded protocol support (SMB, SSH, LDAP, FTP, WMI, WinRM, RDP, VNC, MSSQL)  
+   - Multi-domain capabilities and modular plugin system  
+   - New attack modules (Kerberos Constrained Delegation automation, credential dumping from multiple sources)
+   - [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) – Swiss-army knife for AD enumeration and multi-protocol attacks.  
 4. [PowerView](https://github.com/PowerShellMafia/PowerView) – Pure PowerShell AD enumeration and situational awareness library.  
 5. [Mimikatz](https://github.com/gentilkiwi/mimikatz) – Extract plaintext passwords, hashes, and Kerberos tickets from memory.  
 6. [Rubeus](https://github.com/GhostPack/Rubeus) – Kerberos abuse toolkit for ticket extraction, over-pass, and forging.  
